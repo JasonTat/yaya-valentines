@@ -2,8 +2,7 @@
 import Image from "next/image";
 import React from 'react'
 
-import { Oooh_Baby } from "next/font/google";
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 //images
 import Brim from "../../public/myphotos/476593795_923259099923893_5547219324307686282_n.jpg"
