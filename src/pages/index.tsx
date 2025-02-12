@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from 'react'
 
-import { Geist, Geist_Mono, Oooh_Baby } from "next/font/google";
+import { Oooh_Baby } from "next/font/google";
 import { useState, useEffect } from 'react';
 
 //images
@@ -12,16 +12,6 @@ import Kuromi from "../../public/myphotos/my-melody-and-kuromi-valentines-day-he
 
 //my components
 import ValentinesTitle from "../components/ValentinesTitle";
-import NoButton from "../components/NoButton";
-import YesButton from "../components/YesButton";
-
-
-const ooohBaby = Oooh_Baby({
-  variable: "--font-oooh-baby",
-  subsets: ["latin"],
-  weight: "400"
-});
-
 
 
 export default function Home() {
