@@ -12,6 +12,10 @@ import Kuromi from "../../public/myphotos/my-melody-and-kuromi-valentines-day-he
 //my components
 import ValentinesTitle from "../components/ValentinesTitle";
 
+import { Oooh_Baby } from "next/font/google";
+
+const ooohBaby = Oooh_Baby({ subsets: ["latin"], weight: "400" });
+
 
 export default function Home() {
   const [answer, setAnswer] = useState('');
@@ -75,7 +79,7 @@ export default function Home() {
           answer === 'yes' ? 
           
           <div className="flex flex-col w-full items-center justify-center ">
-            <h1 className="text-7xl mb-6"> I LOVE YOUUUUUUUUUUUUUUU </h1>
+            <h1 className={`${ooohBaby.className}text-7xl mb-6`}> I LOVE YOUUUUUUUUUUUUUUU </h1>
             <div className="flex flex-row items-center justify-center">
 
               <Image src={Brim} alt="Brim" className="w-1/6 mr-8" />
@@ -97,7 +101,7 @@ export default function Home() {
           answer === 'no' ?
           <img src="https://i.pinimg.com/originals/43/ff/e1/43ffe16a0deb6681d0e4074dfda2dc0b.gif" alt="sad" />
           :
-          <p className="font-bold text-black plsanswer">pls answer :c </p>
+          <p className={`${ooohBaby.className}font-bold text-black plsanswer`}>pls answer :c </p>
         }
       </div>
     </div>
