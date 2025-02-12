@@ -5,9 +5,9 @@ It's just meant to be a cute little website, again, to ask my partner to be my v
 
 What I learned:
 
-I already knew how to deploy a React/Next.js project on Vercel/Netlify, but how to fix deployment bugs when a deploy fails.
-Importing custom fonts from Google
-Resovling issues where the custom fonts won't load properly
-Reading those vague error codes that VS Code gives you and figuring out what they mean and how to fix them(usually by a quick google search)
-Refresher on useState
-More experience on TailwindCSS
+- I already knew how to deploy a React/Next.js project on Vercel/Netlify, but how to fix deployment bugs when a deploy fails.
+- Importing custom fonts from Google
+- Resovling issues where the custom fonts won't load properly
+- Reading those vague error codes that VS Code gives you and figuring out what they mean and how to fix them(usually by a quick google search)
+- Refresher on useState
+- More experience on TailwindCSS
