@@ -79,7 +79,7 @@ export default function Home() {
           answer === 'yes' ? 
           
           <div className="flex flex-col w-full items-center justify-center ">
-            <h1 className={`${ooohBaby.className}text-7xl mb-6`}> I LOVE YOUUUUUUUUUUUUUUU </h1>
+            <h1 className={`${ooohBaby.className} text-7xl mb-6`}> I LOVE YOUUUUUUUUUUUUUUU </h1>
             <div className="flex flex-row items-center justify-center">
 
               <Image src={Brim} alt="Brim" className="w-1/6 mr-8" />
